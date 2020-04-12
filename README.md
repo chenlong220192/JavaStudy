@@ -131,19 +131,19 @@
       - TODO
   - Kubernetes
 - 工具
-  - Markdown
-  - Git
+  - [Markdown](https://www.runoob.com/markdown/md-tutorial.html)
+  - [Git](https://backlog.com/git-tutorial/cn/)
     - [撤销commit](/docs/tools/git/cancel_commit.md)
   - Maven
   - Gradle
   - Eclipse-MAT
   - IBM-HA
   - Wireshark
-  - Postman
-  - Jmeter
-  - Arthas
+  - [Postman](https://www.postman.com/)
+  - [Jmeter](http://www.testclass.net/jmeter_doc/jmeter-doc-01)
+  - [Arthas](https://alibaba.github.io/arthas/index.html)
   - xmind
-  - V2ray
+  - [V2ray](https://www.v2ray.com/)
   - Shadowsocks
   - Hyperswitch
   - Atom
@@ -155,12 +155,12 @@
   - 频繁Full GC
   - CPU 100%
 - 面试
-  - 简历模版
+  - [简历模版](https://github.com/AobingJava/JavaFamily/blob/master/docs/idea/%E8%B5%84%E6%96%99.md)
   - TODO
 - 记录
   - 分支管理
-- 书单
+- [书单](/docs/books.md)
 - 转载
   - [圣杯与银弹](https://mp.weixin.qq.com/s/lUAwJRFWIsoEhSQiiPOYZw)
 - 思考
-- 说明
+- [说明](/docs/declare.md)
