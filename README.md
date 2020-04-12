@@ -2,11 +2,14 @@
 - Java
   - 基础
     - 字节流&字符流
+    - 集合
+    - 异常
+    - Stream
   - JVM
     - 类文件结构
     - 类加载机制
     - JVM内存模型
-    - GC
+    - 垃圾回收机制&垃圾回收器&垃圾回收算法
     - 监控和故障处理工具
     - 性能问题分析
     - JIT
@@ -15,35 +18,46 @@
     - volatile
     - AtomicInteger
     - ThreadLocal
+    - 线程状态转换
     - 线程池
     - 锁
       - ReentrentLock
       - ReentrentReadWriteLock
-    - 条件
+    - 限流
+      - RateLimiter
+    - 常用工具类
       - Exchanger
       - CyclicBarrier
       - CountDownLaunch
       - Semaphore
-      - RateLimiter
-    - 集合
       - CopyOnWriteArrayList
       - ConcurrentHashMap
-    - 队列
       - PriorityQueue
+      - Future
   - 其他
     - I/O
       - NIO
-    - Java Stream
-    - Netty
-    - nginx
-- 数据库
-  - Mysql
-  - postgres
-  - Mongo
+    - 高性能NIO框架 - Netty
+    - Nginx
+    - Tomcat
 - 网络
-  - Http
+  - Http协议详解
 - 操作系统
   - Linux
+- 数据库
+  - Mysql
+    - 索引、锁
+    - 事务、隔离级别
+    - 调优
+    - 分库分表
+  - postgres
+  - Mongo
+- 大数据
+  - Hadoop
+  - Spark
+  - Flink
+  - Storm
+  - ODPS离线分析
 - 搜索
   - Lucene
   - Canal
@@ -53,33 +67,34 @@
 - 数据结构&算法
   - 数据结构
   - 算法
-- 工具
-  - markdown
-  - Git
-  - Maven
-  - Gradle
-  - Eclipse-MAT
-  - IBM-HA
 - 软件设计
   - 必知
     - RESTful
     - log
-    - 数据库连接池
-      - Druid
     - 设计模式
+    - CAP
+    - BASE
   - 常用框架
     - Spring
     - Spring Boot
     - MyBatis
+    - 数据库连接池
+      - Druid
   - 分布式
-    - Dubbo
+    - RPC
+      - Dubbo
     - 消息队列
+      - RocketMQ
+      - RabbitMQ
+      - Kafka
+      - 分布式事务
     - 网关
+      - Zuul
     - 分布式锁
-    - 分布式事务
     - 分布式ID
     - 限流
     - 幂等
+    - 最终一致
     - 注册中心
       - Zookeeper
       - Eureka
@@ -91,23 +106,60 @@
         - caffine
       - 缓存中间件
         - Redis
+          - 高可用集群
+          - 哨兵模式
+          - 持久化
+          - 驱逐策略
+          - 布隆过滤器
     - 微服务
-      - Spring Cloud
-      - 服务治理
-- CI/CD/APM/容器/编排
+      - Spring Cloud全家桶
+      - 服务治理熔断、降级、快速失败、容错
+- 架构
+  - 架构的演进
+  - 互联网架构之路
+  - 架构设计思考
+- CI/CD/APM
   - Jenkins
   - Prometheus
+  - Ansible
+  - Nexus
+- 容器/服务编排
   - Docker
+    - docker基本概念
+    - 利用docker简化开发环境搭建
+      - docker搭建zookeeper集群
+      - TODO
   - Kubernetes
+- 工具
+  - Markdown
+  - Git
+  - Maven
+  - Gradle
+  - Eclipse-MAT
+  - IBM-HA
+  - Wireshark
+  - Postman
+  - Jmeter
+  - Arthas
+  - xmind
+  - V2ray
+  - Shadowsocks
+  - Hyperswitch
+  - Atom
 - 项目
   - 链路追踪
   - 秒杀
+- 线上问题处理记录
+  - 接口频繁超时
+  - 频繁Full GC
+  - CPU 100%
 - 面试
+  - 简历模版
+  - TODO
+- 记录
+  - 分支管理
 - 书单
 - 转载
   - [圣杯与银弹](https://mp.weixin.qq.com/s/lUAwJRFWIsoEhSQiiPOYZw)
-- 记录
-  - 分支管理
-- 培训计划
 - 思考
 - 说明
