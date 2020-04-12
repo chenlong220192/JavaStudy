@@ -158,9 +158,9 @@
   - [简历模版](https://github.com/AobingJava/JavaFamily/blob/master/docs/idea/%E8%B5%84%E6%96%99.md)
   - TODO
 - 记录
-  - 分支管理
-- [书单](/docs/books.md)
+  - [分支管理](/docs/bee/git_flow.md)
+- [书单](/docs/bee/books.md)
 - 转载
   - [圣杯与银弹](https://mp.weixin.qq.com/s/lUAwJRFWIsoEhSQiiPOYZw)
 - 思考
-- [说明](/docs/declare.md)
+- [说明](/docs/bee/declare.md)
