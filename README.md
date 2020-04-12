@@ -1,1 +1,113 @@
-# TODO
+## 目录
+- Java
+  - 基础
+    - 字节流&字符流
+  - JVM
+    - 类文件结构
+    - 类加载机制
+    - JVM内存模型
+    - GC
+    - 监控和故障处理工具
+    - 性能问题分析
+    - JIT
+  - 并发
+    - synchronized
+    - volatile
+    - AtomicInteger
+    - ThreadLocal
+    - 线程池
+    - 锁
+      - ReentrentLock
+      - ReentrentReadWriteLock
+    - 条件
+      - Exchanger
+      - CyclicBarrier
+      - CountDownLaunch
+      - Semaphore
+      - RateLimiter
+    - 集合
+      - CopyOnWriteArrayList
+      - ConcurrentHashMap
+    - 队列
+      - PriorityQueue
+  - 其他
+    - I/O
+      - NIO
+    - Java Stream
+    - Netty
+    - nginx
+- 数据库
+  - Mysql
+  - postgres
+  - Mongo
+- 网络
+  - Http
+- 操作系统
+  - Linux
+- 搜索
+  - Lucene
+  - Canal
+  - ElasticSearch
+  - Logstash
+  - Kibana
+- 数据结构&算法
+  - 数据结构
+  - 算法
+- 工具
+  - markdown
+  - Git
+  - Maven
+  - Gradle
+  - Eclipse-MAT
+  - IBM-HA
+- 软件设计
+  - 必知
+    - RESTful
+    - log
+    - 数据库连接池
+      - Druid
+    - 设计模式
+  - 常用框架
+    - Spring
+    - Spring Boot
+    - MyBatis
+  - 分布式
+    - Dubbo
+    - 消息队列
+    - 网关
+    - 分布式锁
+    - 分布式事务
+    - 分布式ID
+    - 限流
+    - 幂等
+    - 注册中心
+      - Zookeeper
+      - Eureka
+      - Consul
+      - Nacos
+    - 缓存
+      - 本地缓存
+        - ehcache
+        - caffine
+      - 缓存中间件
+        - Redis
+    - 微服务
+      - Spring Cloud
+      - 服务治理
+- CI/CD/APM/容器/编排
+  - Jenkins
+  - Prometheus
+  - Docker
+  - Kubernetes
+- 项目
+  - 链路追踪
+  - 秒杀
+- 面试
+- 书单
+- 转载
+  - [圣杯与银弹](https://mp.weixin.qq.com/s/lUAwJRFWIsoEhSQiiPOYZw)
+- 记录
+  - 分支管理
+- 培训计划
+- 思考
+- 说明
