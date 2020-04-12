@@ -133,6 +133,7 @@
 - 工具
   - Markdown
   - Git
+    - [撤销commit](/docs/tools/git/cancel_commit.md)
   - Maven
   - Gradle
   - Eclipse-MAT
