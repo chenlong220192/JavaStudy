@@ -3,6 +3,8 @@
   - 基础
     - 字节流&字符流
     - 集合
+      - HashMap剖析
+      - ArrayList剖析
     - 异常
     - Stream
   - JVM
@@ -106,6 +108,7 @@
         - caffine
       - 缓存中间件
         - Redis
+          - 一致性哈希
           - 高可用集群
           - 哨兵模式
           - 持久化
@@ -162,5 +165,7 @@
 - [书单](/docs/bee/books.md)
 - 转载
   - [圣杯与银弹](https://mp.weixin.qq.com/s/lUAwJRFWIsoEhSQiiPOYZw)
+  - [面试被问到秒杀系统，这个点你一定得答到！](https://mp.weixin.qq.com/s/SWRrdy5AbhERsYBTv3BxGQ)
+  - [Dubbo 如何成为连接异构微服务体系的最佳服务开发框架](https://mp.weixin.qq.com/s/-fvDeGlCLjz0n60naZJnQg)
 - 思考
 - [说明](/docs/bee/declare.md)
