@@ -1,0 +1,22 @@
+{
+    "database": {
+        "client": "mysql",
+        "connection": {
+            "host"     : "192.168.1.4",
+            "port"     : "9200",
+            "user"     : "root",
+            "password" : "123456",
+            "database" : "ghost"
+        }
+    },
+    "paths": {
+        "contentPath": "content/"
+    },
+    "logging": {
+        "level": "info",
+        "rotation": {
+            "enabled": true
+        },
+        "transports": ["file", "stdout"]
+    }
+}

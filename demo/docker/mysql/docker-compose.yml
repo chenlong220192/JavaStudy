@@ -1,0 +1,21 @@
+version: '3.1'
+
+services:
+
+  adminer:
+    image: adminer
+    restart: always
+    ports:
+      - 9201:8080
+
+  mysql:
+    image: mysql
+    restart: always
+    ports:
+      - 3306:3306
+    environment:
+      MYSQL_ROOT_PASSWORD: 123456
+      MYSQL_DATABASE: ghost
+    volumes:
+      - ~/data/container/mysql:/var/lib/mysql
+    command: --default-authentication-plugin=mysql_native_password

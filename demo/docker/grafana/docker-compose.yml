@@ -1,0 +1,22 @@
+version: '2.1'
+services:
+  grafana:
+    image: grafana/grafana
+    container_name: grafana
+    restart: always
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
+        max-file: "5"
+    networks:
+      - prom_bridge
+    ports:
+      - 3000:3000
+    environment:
+      - GF_SERVER_ROOT_URL=http://grafana.server.name
+      - GF_SECURITY_ADMIN_PASSWORD=1234
+networks:
+  prom_bridge:
+    name : prom_bridge
+    driver: bridge

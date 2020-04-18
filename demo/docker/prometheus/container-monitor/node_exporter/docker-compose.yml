@@ -1,0 +1,27 @@
+version: '2.1'
+services:
+  node-exporter:
+    image: prom/node-exporter
+    container_name: prometheus_node-exporter
+    restart: always
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
+        max-file: "5"
+    networks:
+      - prom_bridge
+    ports:
+      - 9091:9100
+    volumes:
+      - /proc:/host/proc:ro
+      - /sys:/host/sys:ro
+      - /:/rootfs:ro
+    command:
+      - '--path.procfs=/host/proc'
+      - '--path.sysfs=/host/sys'
+      - '--collector.filesystem.ignored-mount-points=^/(sys|proc|dev|host|etc|rootfs/var/lib/docker/containers|rootfs/var/lib/docker/overlay2|rootfs/run/docker/netns|rootfs/var/lib/docker/devicemapper|rootfs/var/lib/docker/aufs)($$|/)'
+networks:
+  prom_bridge:
+    name : prom_bridge
+    driver: bridge

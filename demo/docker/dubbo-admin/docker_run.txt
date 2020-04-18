@@ -1,0 +1,8 @@
+docker run \
+--name=dubbo-admin \
+--env admin.registry.address=zookeeper://192.168.1.1:2181 \
+--env admin.config-center=zookeeper://192.168.1.1:2181 \
+--env admin.metadata-report.address=zookeeper://192.168.1.1:2181 \
+-p 9099:8080 \
+-d \
+apache/dubbo-admin

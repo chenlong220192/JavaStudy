@@ -1,0 +1,57 @@
+version: '2.1'
+services:
+  tomcat_1:
+    image: tomcat:latest
+    container_name: tomcat_1
+    restart: always
+    networks:
+      - prom_bridge
+    ports:
+      - 6060:6060
+      - 8080:8080
+    volumes:
+      - ../:/jmx-exporter
+    env_file:
+        - ./project.env
+    entrypoint:
+      - "catalina.sh"
+      - "run"
+
+  tomcat_2:
+    image: tomcat:latest
+    container_name: tomcat_2
+    restart: always
+    networks:
+      - prom_bridge
+    ports:
+      - 6061:6060
+      - 8081:8080
+    volumes:
+      - ../:/jmx-exporter
+    env_file:
+        - ./project.env
+    entrypoint:
+      - "catalina.sh"
+      - "run"
+
+  tomcat_3:
+    image: tomcat:latest
+    container_name: tomcat_3
+    restart: always
+    networks:
+      - prom_bridge
+    ports:
+      - 6062:6060
+      - 8082:8080
+    volumes:
+      - ../:/jmx-exporter
+    env_file:
+        - ./project.env
+    entrypoint:
+      - "catalina.sh"
+      - "run"
+
+networks:
+  prom_bridge:
+    name : prom_bridge
+    driver: bridge
