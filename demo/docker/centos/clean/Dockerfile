@@ -12,4 +12,4 @@ rm -f /lib/systemd/system/anaconda.target.wants/*;
 VOLUME [ "/sys/fs/cgroup" ]
 CMD ["/usr/sbin/init"]
 
-# docker build --rm -t local/c7-systemd .
+# docker build --rm -t local/centos7-clean .
