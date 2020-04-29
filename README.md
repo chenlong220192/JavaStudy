@@ -16,6 +16,7 @@
     - 性能问题分析
     - JIT
   - 并发
+    - AQS
     - synchronized
     - volatile
     - AtomicInteger
@@ -44,6 +45,7 @@
     - Tomcat
 - 网络
   - Http协议详解
+  - http客户端性能对比
 - 操作系统
   - Linux
 - 数据库
@@ -121,9 +123,10 @@
   - 架构的演进
   - 互联网架构之路
   - 架构设计思考
-- CI/CD/APM
+- CI/CD/APM/ui
   - Jenkins
   - Prometheus
+  - grafana
   - Ansible
   - Nexus
 - 容器/服务编排
@@ -132,6 +135,7 @@
     - 利用docker简化开发环境搭建
       - docker搭建zookeeper集群
       - TODO
+  - docker-compose
   - Kubernetes
 - 工具
   - [Markdown](https://www.runoob.com/markdown/md-tutorial.html)
@@ -157,6 +161,7 @@
   - 接口频繁超时
   - 频繁Full GC
   - CPU 100%
+  - 线程数量异常
 - 面试
   - [简历模版](https://github.com/AobingJava/JavaFamily/blob/master/docs/idea/%E8%B5%84%E6%96%99.md)
   - TODO
