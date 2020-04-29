@@ -1,3 +1,5 @@
+- docker run
+````
 docker run \
     -d \
     -p 3306:3306 \
@@ -5,3 +7,4 @@ docker run \
     -e MYSQL_ROOT_PASSWORD=chenlong \
     --name mysql_5.7.28 \
     mysql:5.7.28
+````
