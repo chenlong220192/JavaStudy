@@ -1,5 +1,5 @@
 - docker run
-````
+```
 docker run \
     -d \
     -p 8080:8080 \
@@ -7,4 +7,4 @@ docker run \
     -v ~/data/docker/jenkins:/var/jenkins_home \
     --name jenkins \
     jenkins/jenkins
-````
+```

@@ -4,21 +4,21 @@
 
 ### reset  
 `git reset` 方式不会留下`commit`记录。不加上`--force`会提示版本落后于远程仓库。
-````
+```
 git reset --hard <commit_ID>
 git push origin <branch_name> --force
-````
+```
 
 ### revert
 `git revert` 方式会留下一个新的`commit`记录，用以记录撤销了什么内容。相当于直接在代码上做修改并重新`commit`。
-````
+```
 git revert -n <commit_ID>
 git commit -m "revert xxx"
-````
+```
 
 ***
 ⚠️注意可以通过HEAD来指定回退几个commit
-````
+```
 # 回退到上一个提交
 git reset HEAD^
 
@@ -27,7 +27,7 @@ git reset HEAD~3
 
 # 回退到指定的commit
 git reset <commit_ID>
-````
+```
 
 ***
 

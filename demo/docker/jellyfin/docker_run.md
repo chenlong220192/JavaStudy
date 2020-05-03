@@ -1,5 +1,5 @@
 - docker run
-````
+```
 docker run \
     -d \
     -p 8096:8096 \
@@ -8,4 +8,4 @@ docker run \
     -v ~/data/docker/jellyfin/cache:/cache \
     --name jellyfin \
     jellyfin/jellyfin
-````
+```

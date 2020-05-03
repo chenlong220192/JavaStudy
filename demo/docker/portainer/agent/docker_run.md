@@ -1,5 +1,5 @@
 - docker run
-````
+```
 docker run \
       -d \
       -it \
@@ -9,4 +9,4 @@ docker run \
       -v /var/lib/docker/volumes:/var/lib/docker/volumes \
       --name portainer_agent \
       portainer/agent
-````
+```

@@ -1,5 +1,5 @@
 - docker run
-````
+```
 docker run \
     -d \
     -p 2368:2368 \
@@ -8,4 +8,4 @@ docker run \
     -e NODE_ENV=production \
     --name ghost \
     ghost
-````
+```

@@ -1,5 +1,5 @@
 - docker run
-````
+```
 docker run -d \
     -e POSTGRES_PASSWORD=chenlong \
     -e PGDATA=/var/lib/postgresql/data/pgdata \
@@ -7,4 +7,4 @@ docker run -d \
     -p 5432:5432 \
     --name postgres \
     postgres
-````
+```

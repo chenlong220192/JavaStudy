@@ -1,5 +1,5 @@
 - docker run
-````
+```
 docker run -d \
       -p 8000:8000 \
       -p 9000:9000 \
@@ -8,4 +8,4 @@ docker run -d \
       -v /data/docker/portainer:/data \
       --name=portainer \
       portainer/portainer
-````
+```
