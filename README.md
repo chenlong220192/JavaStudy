@@ -141,6 +141,7 @@
   - [Markdown](https://www.runoob.com/markdown/md-tutorial.html)
   - [Git](https://backlog.com/git-tutorial/cn/)
     - [撤销commit](/docs/tools/git/cancel_commit.md)
+    - [撤销未提交的更改](/docs/tools/git/clean.md)
   - Maven
   - Gradle
   - Eclipse-MAT
