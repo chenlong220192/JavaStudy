@@ -5,7 +5,7 @@ docker run -d \
   -e "discovery.type=single-node" \
   -v ~/data/docker/elasticsearch:/usr/share/elasticsearch \
   --name elasticsearch \
-  elasticsearch:7.4.2
+  docker.elastic.co/elasticsearch/elasticsearch:7.7.0
 ```
 - ⚠️注意：
 - 预先将目标目录拷贝至本机：`docker cp elasticsearch:/usr/share/elasticsearch ~/data/docker/`
