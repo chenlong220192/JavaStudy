@@ -3,10 +3,12 @@
 docker run \
     -d \
     -p 2368:2368 \
-    -v ~/data/docker/ghost/config.production.json:/var/lib/ghost/config.production.json \
-    -v ~/data/docker/ghost/content:/var/lib/ghost/content \
-    -e url=http://106.14.180.184/
+    -v ~/data/docker/ghost/:/var/lib/ghost/ \
+    -e url=http://localhost:2368/ \
     -e NODE_ENV=production \
     --name ghost \
     ghost
 ```
+- ⚠️注意：
+- 预先将目标目录拷贝至本机
+  - `docker cp ghost:/var/lib/ghost/ ~/data/docker/ghost`
