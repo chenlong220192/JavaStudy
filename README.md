@@ -176,5 +176,5 @@
   - [接近8000字的Spring/SpringBoot常用注解总结！安排！](https://mp.weixin.qq.com/s/HVBGhtJ6Cm6hwpLUEz76BQ)
   - [故事：一文带你走进JVM的世界（图文并茂）](https://mp.weixin.qq.com/s/LLZKYH3eTYNHVT9zq4mU3g)
   - [Java 代码精简之道](https://mp.weixin.qq.com/s/A1Z8YZyqQsFqK1TA1dTl2Q)
-- 思考
+- 思考 
 - [说明](/docs/bee/declare.md)
